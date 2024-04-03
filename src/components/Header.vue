@@ -40,7 +40,7 @@
 
                 </div>
 
-                <button type="button" class="btn btn-success">Resume</button>
+                <button type="button" class="btn btn-color rounded-pill1">Resume</button>
 
             </div>
         </nav>
@@ -64,6 +64,10 @@ export default {
     color: #fff;
     justify-content: center;
     cursor: pointer;
+}
+
+.btn-color {
+    background-color: #41b362;
 }
 
 </style>

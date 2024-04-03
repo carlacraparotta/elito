@@ -1,11 +1,12 @@
 <template>
 
 <section id="content">
-    <div class="container">
+    <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6 col-12">
                     <div>
-                        <h2><span>Hello,</span>I am Ronald.</h2>
+                        <h2>Hello,</h2>
+                        <h1>I Am Ronald.</h1>
                     </div>
 
                     <div>
@@ -38,11 +39,18 @@ export default {
 <style scoped>
 
 #content {
-    background-color: gray;
+    background-color: rgb(34, 31, 29);
 }
 
 img {
     border-radius: 50%;
 }
 
+h2 {
+    color: yellow;
+}
+
+h5 {
+    color: #41b362;
+}
 </style>
