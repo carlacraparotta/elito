@@ -40,6 +40,7 @@ export default {
 
 #content {
     background-color: rgb(34, 31, 29);
+    padding-top: 50px;
 }
 
 img {

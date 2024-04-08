@@ -1,7 +1,7 @@
 <!-- Header.vue -->
 <template>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-bs-theme="dark">
             <div class="container">
 
                 <a class="navbar-brand" id="title-logo" href="#">
@@ -70,4 +70,7 @@ export default {
     background-color: #41b362;
 }
 
+nav {
+    background-color: rgb(34, 31, 29);
+}
 </style>
