@@ -67,7 +67,7 @@ export default {
 <style scoped>
 
 #about {
-    background-color: darkslateblue;
+    background-color: rgb(59, 56, 54);
 }
 
 .card {
