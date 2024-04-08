@@ -15,45 +15,55 @@
                     </div>
                 </div>
             </div>
-            <div class="slide py-5">
-                <Carousel :items-to-show="2.5" :wrap-around="true">
-                    <Slide v-for="slide in ['portfolio1', 'portfolio2', 'portfolio3']" :key="slide">
-                        <div class="carousel__item">
-                            <img @src="getImgUrl(slide)" alt="" />
+            <div class="slide py-5 banner">
+                <div class="row d-flex justify-content-around gap-3">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="icon bg">
+                            <img src="../assets/portfolio1.jpg" alt="">
                         </div>
-                    </Slide>
+                    
+                        <div class="py-3">
+                            <a href="">Follio - Multipurpose Portfolio HTML5 Template Project</a>
+                        </div>
+                    </div>
 
-                    <template #addons>
-                        <Navigation />
-                        <Pagination />
-                    </template>
-                </Carousel>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="icon bg">
+                            <img src="../assets/portfolio2.jpg" alt="">
+                        </div>
+                        
+                        <div class="py-3">
+                            <a href="">Elito - Creative Portfolio React Template Project</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="icon bg">
+                            <img src="../assets/portfolio3.jpg" alt="">
+                        </div>
+                        
+                        <div class="py-3">
+                            <a href="">Arkio - Architecture & Interior WordPress Theme Project</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel'
 
 export default {
     name: 'RecentWork',
-    components: {
-    Carousel,
-    Slide,
-    Navigation,
-    Pagination
-  },
-
-    getImgUrl(name) {
-        var images = require.context('../assets/', false, /\.jpg$/)
-        return images('./' + name + ".jpg")
-    }
 }
 </script>
 
 <style scoped>
+#portfolio {
+    background-color: rgb(59, 56, 54);
+}
+
 .title-icon {
     width: 130px;
     padding: 20px;
@@ -67,26 +77,30 @@ export default {
     overflow: visible;
 }
 
-.carousel__item {
-  min-height: 300px;
-  width: 100%;
-  background-color: green;
-  color: white;
-  font-size: 20px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
 }
 
-.carousel__slide {
-  padding: 10px;
+a:hover {
+    color: rgb(85, 255, 0);
+    text-decoration: none;
 }
 
-.carousel__prev,
-.carousel__next {
-  box-sizing: content-box;
-  border: 5px solid white;
+.banner {
+    flex-basis: 30%;
+    position: relative;
+    overflow: hidden;
 }
 
+.bg {
+    background-size: cover;
+    background-position: 50% 20%;
+    transition: transform .6s;
+}
+
+.bg:hover {
+    transform: scale(1.1);
+}
 </style>
