@@ -2,19 +2,26 @@
   <Header />
   <Home />
   <About />
+  <Service />
+  <RecentWork />
+
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
+import Service from './components/Service.vue'
+import RecentWork from './components/RecentWork.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Home,
-    About
+    About,
+    Service,
+    RecentWork
   }
 }
 </script>
