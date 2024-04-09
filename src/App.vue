@@ -4,6 +4,7 @@
   <About />
   <Service />
   <RecentWork />
+  <Contact />
 
 </template>
 
@@ -13,6 +14,7 @@ import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Service from './components/Service.vue'
 import RecentWork from './components/RecentWork.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     Home,
     About,
     Service,
-    RecentWork
+    RecentWork,
+    Contact
   }
 }
 </script>

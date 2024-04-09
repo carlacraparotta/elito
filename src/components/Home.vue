@@ -47,11 +47,17 @@ img {
     border-radius: 50%;
 }
 
+h1 {
+    font-size: 100px;
+}
+
 h2 {
     color: yellow;
+    font-size: 70px;
 }
 
 h5 {
     color: #41b362;
+    font-size: 30px;
 }
 </style>
