@@ -303,6 +303,7 @@ button, select {
     border: 0;
     border-radius: 40px;
     text-transform: capitalize;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     z-index: 1;
     position: relative;

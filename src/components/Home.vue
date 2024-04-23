@@ -1,28 +1,32 @@
 <template>
 
-<section id="content">
+<section class="footer-top">
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6 col-12">
-                    <div>
-                        <h2>Hello,</h2>
-                        <h1>I Am Ronald.</h1>
-                    </div>
+                <div>
+                    <h2>Hello,</h2>
+                    <h1>I Am Ronald.</h1>
+                </div>
 
-                    <div>
-                        <h5>UI/UX Designer</h5>
-                    </div>
+                <div>
+                    <h5>UI/UX Designer</h5>
+                </div>
 
-                    <div>
-                        <p>Must explain to how all this mistaken idea denouncing pleasure pain the system and expound the actua.</p>
-                    </div>
+                <div>
+                    <p>Must explain to how all this mistaken idea denouncing pleasure pain the system and expound the actua.</p>
+                </div>
 
-                    <div>
-                        <a>Hire Me</a>
-                    </div>
+                <div>
+                    <a>Hire Me</a>
+                </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-12">
-                <img src="../assets/ragazzo-home.jpg" />
+            <div class="col-xl-6 col-lg-6 col-12 contenitore">
+                <img class="immagine1" src="../assets/ragazzo-home.jpg" />
+                <!-- <img class="immagine2" src="../assets/photoshop.svg" alt="">
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+                <div class="icon4"></div> -->
             </div>
         </div>
     </div>
@@ -38,12 +42,15 @@ export default {
 
 <style scoped>
 
-#content {
-    background-color: rgb(34, 31, 29);
-    padding-top: 50px;
+.footer-top {
+    background-color: #202020;
+    color: white;
+    line-height: 2.0;
+    padding: 90px;
+    background-image: linear-gradient(to right, #e121384c, #513e3e29, #2020203f), linear-gradient(to bottom, #3778d34c, #3e415129, #2020203f), radial-gradient(circle,  #e1d1214c, #514c3e29, #2020203f);
 }
 
-img {
+img.immagine1 {
     border-radius: 50%;
 }
 
