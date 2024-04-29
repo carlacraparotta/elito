@@ -40,7 +40,7 @@
 
                 </div>
 
-                <button type="button" class="btn btn-color rounded-pill1">Resume</button>
+                <button type="button" class="btn btn-color rounded-pill">Resume</button>
 
             </div>
         </nav>
@@ -66,8 +66,14 @@ export default {
     cursor: pointer;
 }
 
-.btn-color {
+.btn {
+    padding: 15px;
+    font-size: 18px;
     background-color: #41b362;
+}
+
+.btn:hover {
+    background-color: #278141;
 }
 
 nav {

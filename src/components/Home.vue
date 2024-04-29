@@ -1,6 +1,6 @@
 <template>
 
-<section class="footer-top">
+<section class="home">
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6 col-12">
@@ -18,15 +18,11 @@
                 </div>
 
                 <div>
-                    <a>Hire Me</a>
+                    <a class="rounded-pill">Hire Me</a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-12 contenitore">
                 <img class="immagine1" src="../assets/ragazzo-home.jpg" />
-                <!-- <img class="immagine2" src="../assets/photoshop.svg" alt="">
-                <div class="icon2"></div>
-                <div class="icon3"></div>
-                <div class="icon4"></div> -->
             </div>
         </div>
     </div>
@@ -42,7 +38,7 @@ export default {
 
 <style scoped>
 
-.footer-top {
+.home {
     background-color: #202020;
     color: white;
     line-height: 2.0;
@@ -66,5 +62,19 @@ h2 {
 h5 {
     color: #41b362;
     font-size: 30px;
+}
+
+a {
+    background-color: #41b362;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #278141;
 }
 </style>

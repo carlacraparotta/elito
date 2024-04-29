@@ -61,7 +61,8 @@ export default {
 
 <style scoped>
 #portfolio {
-    background-color: rgb(59, 56, 54);
+    background-color: #191919;
+    background-image: radial-gradient(circle at 25% 50%, #dacd1d4c, #514d3e29, #2020202e);
 }
 
 .title-icon {

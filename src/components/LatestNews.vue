@@ -25,44 +25,50 @@
                     <div class="card-group">
                         <div class="card">
                             <img src="https://elito-next.netlify.app/images/blog/img-1.jpg" class="card-img-top"
-                                alt="...">
+                                alt="blog">
                             <div class="card-body">
                                 <h5 class="card-data">25 Dec, 2020</h5>
                                 <p class="card-text"><strong>Have envolved hover the years sometimes accident.</strong>
                                 </p>
-                                <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                                    </svg> Post Details</button>
+                                <button type="button" class="btn">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg> Post Details</a>
+                                </button>
                             </div>
                         </div>
                         <div class="card">
                             <img src="https://elito-next.netlify.app/images/blog/img-2.jpg" class="card-img-top"
-                                alt="...">
+                                alt="ragazza al computer">
                             <div class="card-body">
                                 <h5 class="card-data">13 Dec, 2020</h5>
                                 <p class="card-text"><strong>The Internet tend to repeat predefined chuncks.</strong>
                                 </p>
-                                <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                                    </svg> Post Details</button>
+                                <button type="button" class="btn">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg> Post Details</a>
+                                </button>
                             </div>
                         </div>
                         <div class="card">
                             <img src="https://elito-next.netlify.app/images/blog/img-3.jpg" class="card-img-top"
-                                alt="...">
+                                alt="yoga">
                             <div class="card-body">
                                 <h5 class="card-data">22 Dec, 2020</h5>
                                 <p class="card-text"><strong>The standard chunk of used since the interested.</strong>
                                 </p>
-                                <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                        height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                                    </svg> Post Details</button>
+                                <button type="button" class="btn">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg> Post Details</a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -75,7 +81,7 @@
 
 <script>
 export default {
-    name: 'LatestNews'
+    name: 'NewsComponent'
 }
 
 </script>
@@ -91,13 +97,13 @@ export default {
 #left-button,
 #right-button {
     background-color: #333;
-    border:none;
+    border: none;
     border-radius: 100%;
     color: #fff;
     font-size: 18px;
     padding: 10px 20px;
     cursor: pointer;
-    
+
 }
 
 #left-button:hover,
@@ -125,6 +131,7 @@ export default {
     font-size: 13px;
     padding: 10px;
     background-color: #3c3c3c;
+    display: inline-block;
 }
 
 .card-text {
@@ -137,8 +144,22 @@ button {
     font-size: 20px;
 }
 
-button:hover {
+.card button svg {
+    margin-right: 10px;
+}
+
+.card button svg:hover {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
     color: yellow;
+
 }
 
 .top-title h3 {
@@ -155,4 +176,5 @@ button:hover {
 .card button {
     color: white;
 }
+
 </style>

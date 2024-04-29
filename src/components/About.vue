@@ -1,5 +1,5 @@
 <template>
-    <section id="about" class="footer-top">
+    <section id="about" class="about-section">
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-12 col-sm-12 exp-cli">
@@ -66,7 +66,7 @@ export default {
 
 <style scoped>
 
-.footer-top {
+.about-section {
     background-color: #141414;
     color: white;
     line-height: 2.0;

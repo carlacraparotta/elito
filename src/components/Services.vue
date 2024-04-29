@@ -1,5 +1,5 @@
 <template>
-    <div id="service" class="footer-top">
+    <div id="service" class="popular">
         <div class="container py-5">
             <div class="d-flex row justify-content-center">
                 <div class="col-lg-6 col-12">
@@ -15,13 +15,13 @@
             <div>
                 <ul class="d-flex justify-content-around nav nav-tabs py-5">
                     <li class="nav-item rounded-pill">
-                        <a class="nav-link" @click="activeTab = 'tab1'">Design</a>
+                        <a :class="{ active: activeTab === 'tab1' }" class="nav-link" @click="activeTab = 'tab1'">Design</a>
                     </li>
                     <li class="nav-item rounded-pill">
-                        <a class="nav-link" @click="activeTab = 'tab2'">Development</a>
+                        <a :class="{ active: activeTab === 'tab2' }" class="nav-link" @click="activeTab = 'tab2'">Development</a>
                     </li>
                     <li class="nav-item rounded-pill">
-                        <a class="nav-link" @click="activeTab = 'tab3'">Marketing</a>
+                        <a :class="{ active: activeTab === 'tab3' }" class="nav-link" @click="activeTab = 'tab3'">Marketing</a>
                     </li>
                 </ul>
             </div>
@@ -204,7 +204,17 @@ export default {
 
 <style scoped>
 
-.footer-top {
+li > a {
+    border: none!important;
+}
+
+li > a.active {
+    color: yellow!important;
+    background-color: #373737!important;
+    border: none!important;
+}
+
+.popular {
 background-color: #202020;
 color: white;
 line-height: 2.0;

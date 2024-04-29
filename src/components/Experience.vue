@@ -1,12 +1,12 @@
 <!-- Header.vue -->
 <template>
-  <section class="experience-top red-shadow">
+  <section class="experience-top">
     <div class="container">
       <div class="contact-row">
           <div class="justify-content-center">
               <div class="col-lg-6 col-12">
                   <div class="contact-title">
-                      <h2>Let's Talk</h2>
+                      <h2>My Work Experience</h2>
                       <p>Must explain to you how all this mistaken idea of denouncing pleasure born and give you a complete account the system</p>
                   </div>
               </div>
@@ -68,10 +68,6 @@ background-color: #202020;
 color: white;
 line-height: 2.0;
 padding: 90px;
-}
-
-.red-shadow {
-background-image: radial-gradient(circle, #84090959, #49383857, #20202089);
 }
 
 .wpo-contact-area {

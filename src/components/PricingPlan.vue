@@ -104,7 +104,7 @@ export default {
 }
 
 .yellow-shadow {
-    background-image: radial-gradient(circle, #514c28, #191919b3, #191919);
+    background-image: radial-gradient(circle, #5e4b25, #191919b3, #191919);
 }
 
 /* box */
