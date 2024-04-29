@@ -23,6 +23,10 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-12 contenitore">
                 <img class="immagine1" src="../assets/ragazzo-home.jpg" />
+                <img class="immagine2" src="../assets/photoshop.svg" alt="">
+                <img class="immagine3" src="../assets/diamond.svg" alt="">
+                <img class="immagine4" src="../assets/shield-fill-check.svg" alt="">
+                <img class="immagine5" src="../assets/illustrator.svg" alt="">
             </div>
         </div>
     </div>
@@ -45,9 +49,41 @@ export default {
     padding: 90px;
     background-image: linear-gradient(to right, #e121384c, #513e3e29, #2020203f), linear-gradient(to bottom, #3778d34c, #3e415129, #2020203f), radial-gradient(circle,  #e1d1214c, #514c3e29, #2020203f);
 }
+.contenitore {
+    position: relative;
+}
 
 img.immagine1 {
     border-radius: 50%;
+}
+
+img.immagine2 {
+    width: 130px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+img.immagine3 {
+    width: 130px;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+
+img.immagine4 {
+    width: 100px;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    
+}
+
+img.immagine5 {
+    width: 140px;
+    position: absolute;
+    top: 40px;
+    left: 480px;
 }
 
 h1 {
