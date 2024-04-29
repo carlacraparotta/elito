@@ -1,4 +1,7 @@
+<!-- Carla -->
+
 <template>
+    
     <div id="portfolio">
         <div class="container py-5">
             <div class="title-portfolio">
@@ -18,7 +21,7 @@
             <div class="slide py-5 banner">
                 <div class="row d-flex justify-content-around gap-3">
                     <div class="col-lg-3 col-md-6 col-12">
-                        <div @click="showModal" class="icon bg">
+                        <div class="icon bg">
                             <img src="../assets/portfolio1.jpg" alt="">
                         </div>
                     

@@ -1,5 +1,7 @@
+<!-- Amanda -->
+
 <template>
-    <div class="wpo-about-area-s2 section-padding undefined" id="about">
+    <div class="wpo-about-area-s2 section-padding undefined" id="about2">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-sm-12">

@@ -1,5 +1,7 @@
+<!-- Anna -->
+
 <template>
-    <section class="news p-5">
+    <section id="blog" class="news p-5">
         <div class="container">
             <div class="row">
                 <div class="col top-title">

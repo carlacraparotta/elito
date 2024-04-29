@@ -1,5 +1,7 @@
+<!-- Amanda -->
+
 <template>
-    <section id="Contact" class="contact-area">
+    <section id="contact" class="contact-area">
         <div>
             <div class="container">
                 <div class="contact-row">

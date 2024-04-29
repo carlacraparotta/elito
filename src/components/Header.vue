@@ -1,4 +1,5 @@
-<!-- Header.vue -->
+<!-- Carla -->
+
 <template>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-bs-theme="dark">
@@ -22,19 +23,19 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#service">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#blog">Blog</a>
                         </li>
                     </ul>
 

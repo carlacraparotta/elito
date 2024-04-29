@@ -1,43 +1,45 @@
+<!-- Carla -->
+
 <template>
-<section class="testimonial">
-    <div class="container py-5">
-        <div class="row align-items-center">
-            
-            <div class="col-xl-6 col-lg-6 col-12 contenitore">
-                <div class="cerchio-esterno">
-                    <div class="cerchio-interno">
-                        <div class="cerchio-interno2">
-                            <img class="immagine1" src="../assets/testimonial.jpg" />
-                            <img class="immagine2" src="https://elito-next.netlify.app/images/testimonial/img-2.jpg" alt="">
-                            <img class="immagine3" src="https://elito-next.netlify.app/images/testimonial/img-3.jpg" alt="">
-                            <img class="immagine4" src="https://elito-next.netlify.app/images/testimonial/img-4.jpg" alt="">
-                            <img class="immagine5" src="https://elito-next.netlify.app/images/testimonial/img-5.jpg" alt="">
+    <section class="testimonial">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                
+                <div class="col-xl-6 col-lg-6 col-12 contenitore">
+                    <div class="cerchio-esterno">
+                        <div class="cerchio-interno">
+                            <div class="cerchio-interno2">
+                                <img class="immagine1" src="../assets/testimonial.jpg" />
+                                <img class="immagine2" src="https://elito-next.netlify.app/images/testimonial/img-2.jpg" alt="">
+                                <img class="immagine3" src="https://elito-next.netlify.app/images/testimonial/img-3.jpg" alt="">
+                                <img class="immagine4" src="https://elito-next.netlify.app/images/testimonial/img-4.jpg" alt="">
+                                <img class="immagine5" src="https://elito-next.netlify.app/images/testimonial/img-5.jpg" alt="">
+                            </div>
+                            
                         </div>
-                        
                     </div>
                 </div>
-            </div>
 
-            <div class="col-xl-6 col-lg-6 col-12">
+                <div class="col-xl-6 col-lg-6 col-12">
 
-                <h4>Many desktop publishing packages and editors now use as their.</h4>
-                <p>
-                    It is a long established fact that a reader will be distracted by 
-                    the readable content of page when looking at its layout point of 
-                    using is that it has more-or-less normal distribution of letters, 
-                    as opposed to using 'Content here, content here', 
-                    making look like readable English.
-                </p>
+                    <h4>Many desktop publishing packages and editors now use as their.</h4>
+                    <p>
+                        It is a long established fact that a reader will be distracted by 
+                        the readable content of page when looking at its layout point of 
+                        using is that it has more-or-less normal distribution of letters, 
+                        as opposed to using 'Content here, content here', 
+                        making look like readable English.
+                    </p>
 
-            
-                <h3>Benjir Walton,</h3>
-                <p>Marker</p>
                 
-            </div>
+                    <h3>Benjir Walton,</h3>
+                    <p>Marker</p>
+                    
+                </div>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 </template>
 

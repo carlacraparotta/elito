@@ -1,4 +1,5 @@
-<!-- Header.vue -->
+<!-- Amanda -->
+
 <template>
   <section class="experience-top">
     <div class="container">
